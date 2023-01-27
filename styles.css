@@ -1,0 +1,107 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(".//images/background-2.jpg") ;      
+    background-repeat: no-repeat;
+
+    
+}   
+header 
+{
+    background-color: #35424a ;
+    color: white;
+    min-height: 40px;
+    border-bottom: 1px solid ;
+    text-transform: capitalize; 
+    
+}   
+header > div{
+    width: 100%;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin: auto;
+
+}
+header #Brand 
+{
+    display: inline;
+    float: left;
+    color: #e8491d;
+
+}
+header nav{
+    float : left;
+    padding-left: 200px;
+}
+header  p 
+{
+    display: inline;
+    padding: 0 20px 20px;
+}
+
+#Container
+{
+    position: relative;
+}
+
+
+#Main
+{
+    width: 450px;
+    height: 150px;
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 35%;
+    border-radius: 10px;
+    border-color: black;
+    border: solid ;
+    text-align: center;
+}
+.Info  
+{
+    width: 450px;
+    height: 300px;
+    position: absolute;
+    padding-left: 50px;
+    margin-top: 30%;
+    margin-left: 35%;
+    border-radius: 10px;
+    border-color: black;
+    border: solid ;
+    font-size: larger;
+}
+.Info img{
+    width: 75px;
+    height: 50px;
+    display: inline-block;
+    margin-right: 80px;
+
+}
+.Info h2{
+    display: inline;
+}
+
+input[type="text"]{
+       border-radius: 10px;
+       outline: none;
+       border-color: blueviolet;
+}
+
+#submitt{
+    border-radius: 10px;
+    outline: none;
+    background-color: none;
+    color:blue ;
+}
+
+.bomb {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    border: 75 px solid red;
+
+
+}
+.hidden {
+    display: none;
+}
